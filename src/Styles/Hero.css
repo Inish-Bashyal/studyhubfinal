@@ -81,7 +81,19 @@
     width: 40%;
     max-width: 100%;
     text-align: center;
+    /* background: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0) 70%);
+    mix-blend-mode: multiply;  */
+    pointer-events: none; 
 }
+.footerLogo {
+    width: 40%;
+    max-height: 100px;
+    max-width: 100%;
+    text-align: center;
+   
+}
+    
+
 .hero-image1 {
     width: 100%;
     height: auto;
@@ -108,9 +120,13 @@
 .show-scroll {
   display: flex;
 }
+
 /* Responsive */
 @media screen and (max-width: 900px) {
     .hero-image-section {
+        display: none;
+    }
+    .footerLogo{
         display: none;
     }
     .text-section {

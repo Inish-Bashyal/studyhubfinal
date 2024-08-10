@@ -1,45 +1,59 @@
 import React from "react";
 import "../Styles/Footer.css";
-import SubscribeNewsletter from "./SubscribeNewsletter";
 import { Link } from "react-router-dom";
+import "../Styles/Navbar.css";
+import moment from "moment";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCalendarCheck } from "@fortawesome/free-solid-svg-icons";
 
 function Footer() {
+
+  const currentYear = moment().year();  
+  const handleBookAppointmentClick = () => {
+    window.open('https://forms.gle/YhodXX5tLHhQe8QZ9', '_blank');
+  };
   return (
+
+
     <div className="footer-section">
       <div className="footer-container">
         <div className="ft-info">
           <div className="ft-info-p1">
             <p className="ft-title">
-              Health <span className="ft-sign">+</span>
+              Study Hub International 
             </p>
-            <p className="ft-description">
-              Talk to online doctors and get medical advice, online
-              prescriptions, refills and medical notes within minutes. On-demand
-              healthcare services at your fingertips.
-            </p>
+           
           </div>
 
-          <SubscribeNewsletter />
+          {/* <SubscribeNewsletter /> */}
+          <button
+            className="text-appointment-btn"
+            type="button"
+            onClick={handleBookAppointmentClick}
+            style={{marginTop:"20px"}}
+          >
+            <FontAwesomeIcon icon={faCalendarCheck} /> Book Appointment
+          </button>
         </div>
 
         <div className="ft-list">
           <p className="ft-list-title">Services</p>
           <ul className="ft-list-items">
             <li>
-              <a href="#services">Emergency Care</a>
+              <a href="#services">Career Counselling</a>
             </li>
             <li>
-              <a href="#services">Heart Disease</a>
+              <a href="#services">Language Classes</a>
             </li>
             <li>
-              <a href="#services">Dental Care</a>
+              <a href="#services">Visa Processing</a>
             </li>
-            <li>
+            {/* <li>
               <a href="#services">Prescription</a>
             </li>
             <li>
               <a href="#services">Insights for doctors</a>
-            </li>
+            </li> */}
           </ul>
         </div>
 
@@ -55,12 +69,12 @@ function Footer() {
             <li>
               <Link to={"/legal"}>Terms of Services</Link>
             </li>
-            <li>
+            {/* <li>
               <Link to={"/legal"}>Consultations</Link>
             </li>
             <li>
               <Link to={"/legal"}>How it Works</Link>
-            </li>
+            </li> */}
           </ul>
         </div>
 
@@ -68,30 +82,30 @@ function Footer() {
           <p className="ft-list-title">Talk To Us</p>
           <ul className="ft-list-items">
             <li>
-              <a href="mailto:support@healthplus.com">support@healthplus.com</a>
+              <a href="mailto:studyhub450@gmail.com">studyhub450@gmail.com</a>
             </li>
             <li>
-              <a href="mailto:appointment@healthplus.com">
-                appointment@healthplus.com
+              <a href="mailto:studyhub450@gmail.com">
+                studyhub450@gmail.com
               </a>
             </li>
             <li>
-              <a href="tel:+022 5454 5252">+022 5454 5252</a>
+              <a href="tel:01 4547878">01 4547878 </a>
             </li>
             <li>
-              <a href="tel:+022 2326 6232">+022 2326 6232</a>
+              <a href="tel:+977 9860467717">+977 9860467717</a>
             </li>
           </ul>
         </div>
       </div>
 
       <div className="ft-copyright">
-        <p>© 2013-2023 Health+. All rights reserved.</p>
+        <p>© {currentYear === 2024 ? currentYear : `2024 - ${currentYear}`} Study Hub International. All rights reserved.</p>
 
         <ul className="ft-social-links">
           <li>
             <a
-              href="https://linkedin.com/in/Alkaison/"
+              href="https://www.linkedin.com/company/study-hub-international-education-consultancy-pvt-ltd"
               title="LinkedIn"
               target="_blank"
               rel="noopener noreferrer"
@@ -108,7 +122,7 @@ function Footer() {
 
           <li>
             <a
-              href="https://facebook.com/"
+              href="https://www.facebook.com/profile.php?id=61557927064505"
               title="FaceBook"
               target="_blank"
               rel="noopener noreferrer"
@@ -125,7 +139,7 @@ function Footer() {
 
           <li>
             <a
-              href="https://x.com/Alkaison/"
+              href="https://x.com/study60638?t=OApUKxc-AXZ7SKWPub5hKA&s=09"
               title="Twitter"
               target="_blank"
               rel="noopener noreferrer"

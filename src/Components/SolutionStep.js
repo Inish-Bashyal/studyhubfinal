@@ -7,7 +7,7 @@ function SolutionStep(props) {
     <div className="about-text-step">
       <p className="about-text-sTitle">
         <span>
-          <FontAwesomeIcon className="fa-icon" icon={faCircleChevronDown} />{" "}
+          <FontAwesomeIcon className="fa-icon" icon={faCircleChevronDown} style={{ color: "#F9980F" }}/>{" "}
           {props.title}
         </span>
       </p>

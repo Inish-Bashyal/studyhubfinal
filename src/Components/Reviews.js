@@ -1,9 +1,32 @@
 import React, { useState } from "react";
-import { customerReviews } from "../Scripts/reviews";
 import "../Styles/Reviews.css";
 
+import dongeui from '../Assets/images/dongeui.jpg'
+import cheongnam from '../Assets/images/cheongam.jpg'
+import kangwon from '../Assets/images/kangwon.jpg'
+
+ const customerReviews = [
+    {
+      "name": "Dong-eui University",
+      "location": "South Korea",
+      "image": dongeui,
+    },
+    {
+      "name": "Kangwon National University",
+      "location": "South Korea",
+      "image": kangwon,
+    },
+    {
+      "name": "Cheongam University",
+      "location": "South Korea",
+      "image": cheongnam,
+    },
+    
+];
+
+
 function Reviews() {
-  let rMessage, rName, rLocation;
+  let rPhoto, rName, rLocation;
   const reviewsLength = customerReviews.length - 1;
   const [review, setReview] = useState(0);
 
@@ -24,24 +47,24 @@ function Reviews() {
     const reviewMessage = customerReviews[review];
     rName = reviewMessage.name;
     rLocation = reviewMessage.location;
-    rMessage = reviewMessage.message;
+    rPhoto = reviewMessage.message;
   };
 
   // list review on visit
   handleReviewsUpdation();
 
   return (
-    <div className="review-section" id="reviews">
+    <div className="review-section" id="universities">
       <div className="rw-text-content">
-        <p className="rw-text-title">
+        {/* <p className="rw-text-title">
           More over <span className="rw-text-num">1500+ Customers</span>
-        </p>
+        </p> */}
 
-        <p className="rw-text-desc">Don't believe us, Check clients word</p>
+        <p className="rw-text-desc">Our university partners</p>
 
         <p className="rw-text-format">
           <span className="rw-text-quote1">''</span>
-          <span className="rw-review">{rMessage}</span>
+          <img className="rw-review" src={rName ==='Dong-eui University' ? dongeui:rName ==='Kangwon National University'?kangwon :  cheongnam} alt="university" />
           <span className="rw-text-quote2">''</span>
         </p>
 

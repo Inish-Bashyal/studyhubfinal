@@ -58,13 +58,8 @@
     letter-spacing: 2px;
 }
 .rw-review {
-    display: block;
-    margin: 0 0 0 8px;
-    color: black;
-    font-family: 'Rubik', sans-serif;
-    font-size: 24px;
-    letter-spacing: .7px;
-    line-height: 2.2rem;
+   height: 40rem;
+   width: 100%;
 }
 .rw-authors {
     margin: 0 0 0 8px;
@@ -112,9 +107,7 @@
         font-size: 28px;
     }
     .rw-review {
-        font-size: 22px;
-        letter-spacing: .7px;
-        line-height: 1.8rem;
+        height: 20rem;
     }
     .rw-reviewer-name {
         font-size: 20px;
