@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Health-Plus/static/css/main.a0423357.css",
-    "main.js": "/Health-Plus/static/js/main.5035dfee.js",
-    "static/media/studyhublogo.png": "/Health-Plus/static/media/studyhublogo.d0c77e26414c9bb4e4d4.png",
-    "static/media/dongeui.jpg": "/Health-Plus/static/media/dongeui.3f1962d5023de29f7b5b.jpg",
-    "static/media/cheongam.jpg": "/Health-Plus/static/media/cheongam.a1c4e5ee703a1446ae2e.jpg",
-    "static/media/kangwon.jpg": "/Health-Plus/static/media/kangwon.6a4b88bb74e702028491.jpg",
-    "static/media/doctor-book-appointment.png": "/Health-Plus/static/media/doctor-book-appointment.edb3f4ac282ff3fefaec.png",
-    "index.html": "/Health-Plus/index.html",
-    "main.a0423357.css.map": "/Health-Plus/static/css/main.a0423357.css.map",
-    "main.5035dfee.js.map": "/Health-Plus/static/js/main.5035dfee.js.map"
+    "main.css": "/Study Hub/static/css/main.a0423357.css",
+    "main.js": "/Study Hub/static/js/main.5035dfee.js",
+    "static/media/studyhublogo.png": "/Study Hub/static/media/studyhublogo.d0c77e26414c9bb4e4d4.png",
+    "static/media/dongeui.jpg": "/Study Hub/static/media/dongeui.3f1962d5023de29f7b5b.jpg",
+    "static/media/cheongam.jpg": "/Study Hub/static/media/cheongam.a1c4e5ee703a1446ae2e.jpg",
+    "static/media/kangwon.jpg": "/Study Hub/static/media/kangwon.6a4b88bb74e702028491.jpg",
+    "static/media/doctor-book-appointment.png": "/Study Hub/static/media/doctor-book-appointment.edb3f4ac282ff3fefaec.png",
+    "index.html": "/Study Hub/index.html",
+    "main.a0423357.css.map": "/Study Hub/static/css/main.a0423357.css.map",
+    "main.5035dfee.js.map": "/Study Hub/static/js/main.5035dfee.js.map"
   },
   "entrypoints": [
     "static/css/main.a0423357.css",
