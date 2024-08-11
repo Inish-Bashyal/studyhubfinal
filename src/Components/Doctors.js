@@ -4,7 +4,6 @@ import DoctorCard from "./DoctorCard";
 import profile1 from "../Assets/studyhublogo.png";
 import profile2 from "../Assets/studyhublogo.png";
 import profile3 from "../Assets/studyhublogo.png";
-import profile4 from "../Assets/studyhublogo.png";
 import "../Styles/Doctors.css";
 
 function Doctors() {

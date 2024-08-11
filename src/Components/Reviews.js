@@ -26,7 +26,7 @@ import kangwon from '../Assets/images/kangwon.jpg'
 
 
 function Reviews() {
-  let rPhoto, rName, rLocation;
+  let  rName, rLocation;
   const reviewsLength = customerReviews.length - 1;
   const [review, setReview] = useState(0);
 
@@ -47,7 +47,6 @@ function Reviews() {
     const reviewMessage = customerReviews[review];
     rName = reviewMessage.name;
     rLocation = reviewMessage.location;
-    rPhoto = reviewMessage.message;
   };
 
   // list review on visit
