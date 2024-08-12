@@ -50,7 +50,7 @@ function Navbar() {
           </a>
         </li>
         <li>
-          <a href="#doctors" className="navbar-links">
+          <a href="#counsellors" className="navbar-links">
             Counsellors
           </a>
         </li>
@@ -80,13 +80,13 @@ function Navbar() {
             </a>
           </li>
           <li>
-            <a onClick={openNav} href="#reviews">
-              Reviews
+            <a onClick={openNav} href="#universities">
+            Universities
             </a>
           </li>
           <li>
-            <a onClick={openNav} href="#doctors">
-              Doctors
+            <a onClick={openNav} href="#counsellors">
+              Counsellores
             </a>
           </li>
           <li>

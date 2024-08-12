@@ -62,9 +62,9 @@ function Reviews() {
         <p className="rw-text-desc">Our university partners</p>
 
         <p className="rw-text-format">
-          <span className="rw-text-quote1">''</span>
+          {/* <span className="rw-text-quote1">''</span> */}
           <img className="rw-review" src={rName ==='Dong-eui University' ? dongeui:rName ==='Kangwon National University'?kangwon :  cheongnam} alt="university" />
-          <span className="rw-text-quote2">''</span>
+          {/* <span className="rw-text-quote2">''</span> */}
         </p>
 
         <div className="rw-authors">
