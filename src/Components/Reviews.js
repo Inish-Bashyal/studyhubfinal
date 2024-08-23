@@ -4,6 +4,7 @@ import "../Styles/Reviews.css";
 import dongeui from '../Assets/images/dongeui.jpg'
 import cheongnam from '../Assets/images/cheongam.jpg'
 import kangwon from '../Assets/images/kangwon.jpg'
+import kyundong from '../Assets/images/kyundong.jpg'
 
  const customerReviews = [
     {
@@ -20,6 +21,11 @@ import kangwon from '../Assets/images/kangwon.jpg'
       "name": "Cheongam University",
       "location": "South Korea",
       "image": cheongnam,
+    },
+    {
+      "name": "Kyungdong University",
+      "location": "South Korea",
+      "image": kyundong,
     },
     
 ];
@@ -63,7 +69,7 @@ function Reviews() {
 
         <p className="rw-text-format">
           {/* <span className="rw-text-quote1">''</span> */}
-          <img className="rw-review" src={rName ==='Dong-eui University' ? dongeui:rName ==='Kangwon National University'?kangwon :  cheongnam} alt="university" />
+          <img className="rw-review" src={rName ==='Dong-eui University' ? dongeui:rName ==='Kangwon National University'?kangwon :rName ==='Kyungdong University'?kyundong :  cheongnam} alt="university" />
           {/* <span className="rw-text-quote2">''</span> */}
         </p>
 

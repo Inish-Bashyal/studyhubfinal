@@ -29,12 +29,12 @@ function LegalDocs() {
       <h2 className="legal-siteTitle" style={{background:"transparent"}}>Privacy Policy for Study Hub International</h2>
         <p className="legal-title">General Info</p>
         <p className="legal-description">
-        At Study Hub International, accessible from https://studyhub.com.np/, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Dikshya International and how we use it.
+        At Study Hub International, accessible from https://studyhub.com.np/, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Study Hub International and how we use it.
         </p>
 
         <p className="legal-title">Privacy Policy</p>
         <p className="legal-description">
-        This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in Dikshya International. This policy is not applicable to any information collected offline or via channels other than this website.
+        This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in Study Hub International. This policy is not applicable to any information collected offline or via channels other than this website.
         <br />
         <br />
         If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.
@@ -90,7 +90,7 @@ function LegalDocs() {
 
         </p>
         <p className="legal-description">
-        Like any other website, Dikshya International uses 'cookies'. These cookies are used to store information including visitors' preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users' experience by customizing our web page content based on visitors' browser type and/or other information.        </p>
+        Like any other website, Study Hub International uses 'cookies'. These cookies are used to store information including visitors' preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users' experience by customizing our web page content based on visitors' browser type and/or other information.        </p>
 
         <p className="legal-title">Google DoubleClick DART Cookie
 
@@ -115,13 +115,13 @@ function LegalDocs() {
 
         </p>
         <p className="legal-description">
-        You may consult this list to find the Privacy Policy for each of the advertising partners of Dikshya International.       
+        You may consult this list to find the Privacy Policy for each of the advertising partners of Study Hub International.       
       
         <br />
         <br />
-        Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web Beacons that are used in their respective advertisements and links that appear on Dikshya International, which are sent directly to users' browser. They automatically receive your IP address when this occurs. These technologies are used to measure the effectiveness of their advertising campaigns and/or to personalize the advertising content that you see on websites that you visit.
+        Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web Beacons that are used in their respective advertisements and links that appear on Study Hub International, which are sent directly to users' browser. They automatically receive your IP address when this occurs. These technologies are used to measure the effectiveness of their advertising campaigns and/or to personalize the advertising content that you see on websites that you visit.
         <br />
-        Note that Dikshya International has no access to or control over these cookies that are used by third-party advertisers.
+        Note that Study Hub International has no access to or control over these cookies that are used by third-party advertisers.
 
         </p>
         <p className="legal-title">Third Party Privacy Policies
@@ -129,7 +129,7 @@ function LegalDocs() {
 
         </p>
         <p className="legal-description">
-        Dikshya International's Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may include their practices and instructions about how to opt-out of certain options.     
+        Study Hub International's Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may include their practices and instructions about how to opt-out of certain options.     
         Google
         <br />
         <br />
@@ -186,7 +186,7 @@ You can choose to disable cookies through your individual browser options. To kn
         <p className="legal-description">
         Another part of our priority is adding protection for children while using the internet. We encourage parents and guardians to observe, participate in, and/or monitor and guide their online activity.
                 <br />
-                Dikshya International does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records.      
+                Study Hub International does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records.      
                 
         </p>
 
