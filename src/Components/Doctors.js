@@ -15,10 +15,10 @@ function Doctors() {
         </h3>
 
         <p className="dt-description">
-          Meet our exceptional team of specialist doctors, dedicated to
-          providing top-notch healthcare services at Study Hub International. Trust in their
-          knowledge and experience to lead you towards a healthier and happier
-          life.
+        Get to know our dedicated team of expert counsellors at Study Hub International. 
+  They are here to guide you every step of the way, ensuring you receive the best 
+  advice and support for your educational journey. Trust in their expertise to help 
+  you achieve your academic and career goals.
         </p>
       </div>
 
