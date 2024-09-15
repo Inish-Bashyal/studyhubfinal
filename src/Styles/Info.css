@@ -75,6 +75,22 @@
     color: #2C96FF;
     font-size: 24px;
 }
+.headerSection{
+    display: flex;
+    justify-content: space-between;
+    padding: 4px;
+    align-items: center;
+}
+.header-img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    /* border: 1px solid red; */
+}
+.header-img:hover{
+    transform: scale(1.05);
+}
 /* Responsive */
 @media screen and (max-width: 1000px) {
     .info-description {

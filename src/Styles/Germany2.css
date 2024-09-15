@@ -1,0 +1,52 @@
+/* Integrate these styles into your existing CSS file or create a new CSS file for Step 3 */
+
+/* General Layout */
+.ausbildung-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.ausbildung-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.ausbildung-content {
+    margin: 20px 0;
+}
+
+.subheading {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.structure-item, .ausbildung-application, .ausbildung-professions, .ausbildung-benefits, .ausbildung-language, .ausbildung-after, .ausbildung-intake, .ausbildung-checklist {
+    margin-bottom: 2rem;
+}
+
+.ausbildung-content ul {
+    list-style-type: disc;
+    padding-left: 1.25rem;
+}
+
+.ausbildung-content li {
+    margin-bottom: 0.5rem;
+}
+
+
+/* Responsive Styles */
+@media screen and (min-width: 768px) {
+    .ausbildung-content {
+        padding: 0 1rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .ausbildung-content {
+        padding: 0 2rem;
+    }
+}
