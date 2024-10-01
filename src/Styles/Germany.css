@@ -113,94 +113,100 @@
   .germany-step2-container {
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
-    font-family: 'Arial', sans-serif; /* Use your preferred font */
-    padding: 3rem; /* Increased padding for a spacious feel */
-    background: #f4f7fa; /* Softer background color */
-    min-height: 100vh; /* Ensure full height coverage */
+    font-family: 'Arial', sans-serif; 
+    background: #f4f7fa; 
+    min-height: 100vh; 
 }
 
 .germany-step2-main-content {
     width: 100%;
-    margin: 0 auto; /* Center horizontally */
-    background: #ffffff; /* White background for content */
-    border-radius: 12px; /* Rounded corners */
-    padding: 2.5rem; /* Generous padding for a clean layout */
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Deeper shadow for a lifted effect */
+    background: #ffffff; 
+    border-radius: 12px; 
+    padding: 2.5rem;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); 
 }
 
 .germany-step2-intro-section {
     text-align: center;
-    margin-bottom: 2rem; /* Bottom margin for spacing */
+    margin-bottom: 2rem; 
 }
 
 .germany-step2-heading-primary {
-    font-size: 2.5rem; /* Main heading size */
-    color: #2c3e50; /* Darker text for contrast */
+    font-size: 2.5rem; 
+    color: #2c3e50; 
     margin-bottom: 1rem;
 }
 
 .germany-step2-image-cover {
     width: 100%;
     height: auto;
-    border-radius: 12px; /* Match border radius */
-    margin: 1rem 0; /* Margin for spacing */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for image */
+    border-radius: 12px; 
+    margin: 1rem 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
 }
 
 .germany-step2-paragraph {
-    font-size: 1.125rem; /* Increased text size */
-    color: #34495e; /* Slightly lighter for better readability */
-    margin: 1rem 0 2rem; /* Spacing */
+    font-size: 1.125rem; 
+    color: #34495e; 
+    margin: 1rem 0 2rem; 
 }
 
 .germany-step2-heading-secondary {
-    font-size: 2rem; /* Adjusted heading size */
-    color: #2980b9; /* A distinct color for section headings */
-    margin: 2.5rem 0 1rem; /* Margin to separate sections */
-    border-bottom: 2px solid #2980b9; /* Underline for emphasis */
-    padding-bottom: 0.5rem; /* Padding for spacing */
+    font-size: 2rem;
+    color: #2980b9; 
+    margin: 2.5rem 0 1rem; 
+    border-bottom: 2px solid #2980b9; 
+    padding-bottom: 0.5rem;
 }
 
 .germany-step2-card {
-    background: #ecf0f1; /* Light card background */
-    border-radius: 8px; /* Rounded corners */
-    padding: 1.5rem; /* Padding for content */
-    margin: 1rem 0; /* Spacing between cards */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    transition: transform 0.2s; /* Animation on hover */
+    background: #ecf0f1; 
+    border-radius: 8px;
+    padding: 1.5rem; 
+    margin: 1rem 0; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
 }
 
 .germany-step2-card:hover {
-    transform: translateY(-2px); /* Slight lift on hover */
+    transform: translateY(-2px); 
 }
 
 .germany-step2-heading-tertiary {
-    font-size: 1.5rem; /* Heading size for card titles */
-    color: #2c3e50; /* Consistent dark color */
-    margin-bottom: 0.5rem; /* Spacing */
+    font-size: 1.5rem; 
+    color: #2c3e50; 
+    margin-bottom: 0.5rem; 
 }
 
 .germany-step2-institution-grid,
 .germany-step2-university-list {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); /* Responsive grid */
-    gap: 1.5rem; /* Spacing between items */
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem; 
 }
 
 .germany-step2-requirement-list,
 .germany-step2-proficiency-list,
 .germany-step2-application-list,
 .germany-step2-tuition-list {
-    margin: 1.5rem 0; /* Margins for lists */
-    padding-left: 1.5rem; /* Indentation for lists */
-    list-style-type: disc; /* Bulleted list */
-    color: #34495e; /* Text color for lists */
+    margin: 1.5rem 0; 
+    padding-left: 1.5rem; 
+    list-style-type: disc; 
+    color: #34495e;
 }
 
 .germany-step2-requirement-list li,
 .germany-step2-proficiency-list li,
 .germany-step2-application-list li,
 .germany-step2-tuition-list li {
-    margin: 0.5rem 0; /* Spacing for list items */
+    margin: 0.5rem 0;
+}
+@media (max-width: 768px) {
+  .germany-step2-card {
+      width: 100%; /* Make cards full width */
+      margin: 0.5rem 0; /* Adjust margin for smaller screens */
+  }
+  .germany-step2-main-content {
+    padding:0 2rem;
+  }
 }

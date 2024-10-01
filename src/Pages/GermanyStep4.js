@@ -15,8 +15,9 @@ function GermanyStep4() {
     }
 
     return (
-        <div className="container">
+            <>
             <Navbar />
+            <div className="container">
             <div className="main-content">
                 <h1 className="heading-primary">FSJ and BFD in Germany</h1>
 
@@ -24,7 +25,7 @@ function GermanyStep4() {
                 <section className="program-section">
                     <h2 className="heading-secondary">Freiwilliges Soziales Jahr (FSJ)</h2>
                     <p className="program-purpose"><strong>Purpose:</strong> The FSJ is designed for young people to engage in social or cultural activities, gaining experience and contributing to society before pursuing further education or entering the workforce.</p>
-                    
+
                     <div className="program-details">
                         <p><strong>Duration:</strong> Typically 12 months, with some flexibility for shorter or longer programs.</p>
                         <p><strong>Eligibility:</strong> Generally for individuals aged 16 to 27, without specific educational requirements.</p>
@@ -45,7 +46,7 @@ function GermanyStep4() {
                 <section className="program-section">
                     <h2 className="heading-secondary">Bundesfreiwilligendienst (BFD)</h2>
                     <p className="program-purpose"><strong>Purpose:</strong> The BFD allows people of all ages to engage in voluntary work in social, ecological, or cultural sectors, fostering personal development.</p>
-                    
+
                     <div className="program-details">
                         <p><strong>Duration:</strong> Typically 6 to 18 months, with flexible arrangements.</p>
                         <p><strong>Eligibility:</strong> Open to individuals aged 16 and above, including retirees.</p>
@@ -68,8 +69,9 @@ function GermanyStep4() {
                     <button className="nextBtn" onClick={handleNextPage}>Next Page</button>
                 </div>
             </div>
-            <Footer />
         </div>
+        <Footer />
+        </>
     );
 }
 

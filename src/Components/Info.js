@@ -25,7 +25,7 @@ function Info() {
         />
 
         <InformationCard
-          title="IELTS/German/Korean Classes"
+          title="Language Classes"
           description="Our language classes offer expert instruction in IELTS preparation, German, and Korean. Whether you're aiming to achieve high scores on the IELTS, master German for work or travel, or learn Korean for personal enrichment, our experienced educators provide comprehensive training and support. We use interactive methods and personalized feedback to help you achieve your language goals and enhance your communication skills."
 
           icon={faLanguage}

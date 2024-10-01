@@ -135,8 +135,9 @@ const AboutGermany = [
 
    
     return (
-      <div className="home-section">
+        <>
         <Navbar />
+        <div className="home-section">
         <div className="countryContainer">
           {AboutGermany?.map((item, index) => (
             <div className="countryDescriptionCard" key={index}>
@@ -155,13 +156,14 @@ const AboutGermany = [
           ))}
         </div>
         <div className="pagination">
-          
-                <button className="nextBtn" onClick={handlePreviuosPage}>Previous Page</button>
-                <button className="nextBtn" onClick={handleNextPage}>Next Page</button>
-            
+
+          <button className="nextBtn" onClick={handlePreviuosPage}>Previous Page</button>
+          <button className="nextBtn" onClick={handleNextPage}>Next Page</button>
+
         </div>
-        <Footer />
       </div>
+      <Footer />
+      </>
     );
   }
   

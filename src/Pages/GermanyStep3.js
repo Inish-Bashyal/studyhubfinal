@@ -14,11 +14,12 @@ function GermanyStep3() {
     }
 
     return (
-        <div className="container">
+            <>
             <Navbar />
+            <div className="container">
             <section className="ausbildung-section">
                 <h1 className="ausbildung-title">Ausbildung in Germany</h1>
-                
+
                 <div className="ausbildung-content">
                     <div className="ausbildung-overview">
                         <h2 className="subheading">Ausbildung:</h2>
@@ -30,7 +31,7 @@ function GermanyStep3() {
                             <li><strong>Employment Relationship:</strong> During the training, apprentices are employed by the company, earning a salary that usually increases with each year of training.</li>
                         </ul>
                     </div>
-                    
+
                     <div className="ausbildung-structure">
                         <h2 className="subheading">1. Structure of Ausbildung:</h2>
                         <div className="structure-content">
@@ -55,7 +56,7 @@ function GermanyStep3() {
                             </div>
                         </div>
                     </div>
-                    
+
                     <div className="ausbildung-application">
                         <h2 className="subheading">2. Application Process:</h2>
                         <ul>
@@ -118,7 +119,7 @@ function GermanyStep3() {
                             <li><strong>Application Deadlines:</strong> Applications are often submitted between April and July.</li>
                         </ul>
                     </div>
-                    
+
                     <div className="ausbildung-checklist">
                         <h2 className="subheading">BASIC CHECKLIST:</h2>
                         <ul>
@@ -134,14 +135,15 @@ function GermanyStep3() {
                         </ul>
                     </div>
                 </div>
-                
+
                 <div className="pagination">
                     <button className="previousBtn" onClick={handlePreviousPage}>Previous Page</button>
                     <button className="nextBtn" onClick={handleNextPage}>Next Page</button>
                 </div>
             </section>
-            <Footer />
         </div>
+        <Footer />
+        </>
     );
 }
 

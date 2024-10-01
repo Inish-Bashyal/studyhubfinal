@@ -11,6 +11,9 @@ function GermanyStep7() {
     const handlePreviousPage = () => {
         navigate('/germany/step6');
     }
+    const handleNextPage = () => {
+        navigate('/');
+    }
 
     return (
         <>
@@ -79,13 +82,15 @@ function GermanyStep7() {
                     <h3 className="visa-checklist-good-luck">GOOD LUCK !!!!</h3>
                 <div className="pagination">
                     <button className="previousBtn" onClick={handlePreviousPage}>Previous Page</button>
+                    <button className="nextBtn" onClick={handleNextPage}>Go back to Home</button>
+
                 </div>
                 </section>
 
                 {/* Pagination Buttons */}
             </div>
-            <Footer />
         </div>
+            <Footer />
         </>
     
 );
