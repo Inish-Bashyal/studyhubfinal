@@ -1,0 +1,88 @@
+/* Germany4.css */
+
+.germany-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f0f4f8; /* Light background color for a clean look */
+    width: 100%;
+  }
+  
+  .germany-main-content {
+    flex: 1;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align content at the start */
+  }
+  
+  .opportunity-card {
+    width: 100%;
+    background-color: #ffffff; /* White background for the main card */
+    padding: 2rem;
+    border-radius: 0.75rem; /* More pronounced rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  }
+  
+  .opportunity-title {
+    font-size: 1.5rem; /* Larger font size for emphasis */
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #1e3a8a; /* Darker blue for primary headings */
+  }
+  
+  .opportunity-description {
+    margin-bottom: 1.5rem;
+  }
+  
+  .opportunity-subtitle {
+    font-size: 1.25rem; /* Subheading size */
+    font-weight: 500;
+    margin-bottom: 0.75rem;
+    color: #1d4ed8; /* Brighter blue for subheadings */
+  }
+  
+  .opportunity-features,
+  .application-steps,
+  .opportunity-benefits {
+    list-style-type: disc; /* Using disc for unordered lists */
+    margin-left: 1.5rem; /* Indent for better readability */
+    margin-bottom: 1.5rem; /* Space below the lists */
+  }
+  
+  .application-steps {
+    list-style-type: decimal; /* Using decimal for ordered lists */
+  }
+  
+  .opportunity-note {
+    margin-bottom: 1rem;
+  }
+  
+  .official-link {
+    color: #1d4ed8; /* Consistent blue for links */
+    text-decoration: underline;
+    transition: color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .official-link:hover {
+    color: #1e40af; /* Darker blue on hover */
+  }
+  
+
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .germany-main-content {
+      padding: 1rem; /* Less padding on smaller screens */
+    }
+  
+    .opportunity-title {
+      font-size: 1.25rem; /* Slightly smaller font size on mobile */
+    }
+  
+    .pagination-button {
+      padding: 0.5rem 1rem; /* Adjust padding for buttons on mobile */
+      font-size: 0.9rem; /* Smaller font size for buttons */
+    }
+  }
+  

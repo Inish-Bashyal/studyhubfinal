@@ -129,6 +129,9 @@ const AboutGermany = [
         const handleNextPage=()=>{
             navigate('/germany/step2')
         }
+        const handlePreviuosPage=()=>{
+            navigate('/');
+        }
 
    
     return (
@@ -153,6 +156,7 @@ const AboutGermany = [
         </div>
         <div className="pagination">
           
+                <button className="nextBtn" onClick={handlePreviuosPage}>Previous Page</button>
                 <button className="nextBtn" onClick={handleNextPage}>Next Page</button>
             
         </div>

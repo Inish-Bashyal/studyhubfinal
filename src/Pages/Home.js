@@ -7,6 +7,7 @@ import BookAppointment from "../Components/BookAppointment";
 import Reviews from "../Components/Reviews";
 import Doctors from "../Components/Doctors";
 import Footer from "../Components/Footer";
+import CountryInfo from "../Components/CountryDetails";
 
 function Home() {
   return (
@@ -14,6 +15,7 @@ function Home() {
       <Navbar />
       <Hero />
       <Info />
+      <CountryInfo />
       <About />
       <BookAppointment />
       <Reviews />

@@ -6,9 +6,9 @@ import { useNavigate } from "react-router-dom";
 
 function GermanyStep3() {
     const navigate = useNavigate();
-    // const handleNextPage = () => {
-    //     navigate('/germany/step4');
-    // }
+    const handleNextPage = () => {
+        navigate('/germany/step4');
+    }
     const handlePreviousPage = () => {
         navigate('/germany/step2');
     }
@@ -137,7 +137,7 @@ function GermanyStep3() {
                 
                 <div className="pagination">
                     <button className="previousBtn" onClick={handlePreviousPage}>Previous Page</button>
-                    {/* <button className="nextBtn" onClick={handleNextPage}>Next Page</button> */}
+                    <button className="nextBtn" onClick={handleNextPage}>Next Page</button>
                 </div>
             </section>
             <Footer />

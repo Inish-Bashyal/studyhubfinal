@@ -1,0 +1,90 @@
+.germany-step5-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.germany-step5-main-content {
+    flex: 1;
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background for better contrast */
+}
+
+.germany-step5-heading-primary {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.germany-step5-section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.germany-step5-heading-secondary {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #0070f3; /* Primary color for headings */
+}
+
+.germany-step5-heading-tertiary {
+    font-size: 1.5rem;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: #0070f3; /* Same primary color for consistency */
+}
+
+.germany-step5-description {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #555;
+}
+
+.germany-step5-list {
+    margin-left: 20px;
+    list-style-type: disc;
+}
+
+.germany-step5-nested-list {
+    margin-left: 20px;
+    list-style-type: circle; /* Different style for nested list */
+}
+
+.germany-step5-country-highlights {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Space between highlights */
+}
+
+.germany-step5-highlight {
+    flex: 1 1 calc(45% - 20px); /* Two-column layout for highlights */
+    margin: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.germany-step5-pagination {
+    display: flex;
+    justify-content: space-between; /* Space between buttons */
+    margin-top: 20px;
+}
+
+.germany-step5-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #0070f3; /* Primary color for buttons */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.germany-step5-button:hover {
+    background-color: #005bb5; /* Darker shade for hover effect */
+}
