@@ -40,6 +40,12 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 32px;
 }
+.country-info-cards-content {
+    margin: 64px 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+}
 .info-cards {
     height: auto;
     border: 2px solid #d7d3d3;
@@ -100,12 +106,18 @@
     .info-cards-content {
         grid-template-columns: repeat(2, 1fr);
     }
+    .country-info-cards-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 @media screen and (max-width: 700px) {
     .info-description {
         margin: 64px 8px;
     }
     .info-cards-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .country-info-cards-content {
         grid-template-columns: repeat(1, 1fr);
     }
 }

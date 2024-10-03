@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
 import '../Styles/Germany2.css';
@@ -12,6 +12,9 @@ function GermanyStep3() {
     const handlePreviousPage = () => {
         navigate('/germany/step2');
     }
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     return (
             <>

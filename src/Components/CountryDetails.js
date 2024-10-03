@@ -17,17 +17,17 @@ function CountryInfo() {
         </p>
       </div>
 
-      <div className="info-cards-content" >
+      <div className="country-info-cards-content" >
         <CountryCard
           title="Korea"
-          description="Our Career Counselling service offers personalized support to help you navigate your career path. Whether you're exploring new career opportunities, seeking advice on career transitions, or looking for guidance on professional development, our expert counselors are here to provide tailored advice and strategies. We focus on understanding your unique goals and aspirations to help you achieve a fulfilling and successful career."
-           link='/korea'
+          description="Explore career opportunities and gain expert guidance on building a successful career in Korea."
+          link='/korea'
           icon={Korea}
         />
 
         <CountryCard
           title="Germany"
-          description="Our language classes offer expert instruction in IELTS preparation, German, and Korean. Whether you're aiming to achieve high scores on the IELTS, master German for work or travel, or learn Korean for personal enrichment, our experienced educators provide comprehensive training and support. We use interactive methods and personalized feedback to help you achieve your language goals and enhance your communication skills."
+          description="Learn German or prepare for your career and education in Germany with our expert guidance."
           link='/germany'
           icon={Germany}
         />

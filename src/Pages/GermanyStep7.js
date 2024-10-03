@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
 import '../Styles/Germany5.css';
@@ -14,6 +14,10 @@ function GermanyStep7() {
     const handleNextPage = () => {
         navigate('/');
     }
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
 
     return (
         <>
